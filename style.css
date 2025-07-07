@@ -1,8 +1,11 @@
 h2 {
     color:yellowgreen;
+    text-decoration:line-through
 }
 p {
     color:blueviolet;
+    text-align:left;
+    text-decoration:overline;
 }
 button {
     color:rgb(179, 179, 4);
@@ -10,4 +13,36 @@ button {
 }
 body {
     background-color: blanchedalmond;
+}
+#h3 {
+    color:burlywood;
+    text-decoration: underline;
+    font-weight:900;
+}
+#h4 {
+    color:burlywood;
+    text-decoration: underline;
+    font-weight:lighter;
+}
+#one {
+    font-family:arial;
+    text-decoration: underline;
+}
+#two {
+    font-family: 'Segoe UI';
+    text-decoration:line-through
+
+}
+#a {
+    font-size: 10px
+}
+#b {
+    font-size: 15px
+}
+#c{
+    font-size: 20px
+}
+#three {
+    text-transform: uppercase;
+    color:azure;
 }

@@ -1,0 +1,48 @@
+#box1 {
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+    background-color: #8a2be2;
+    display:inline-block
+    
+}
+#box2 {
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+    background-color: darkgoldenrod;
+    display:inline-block;
+    visibility:hidden; /* We will have its spaxce but its hidden*/
+   
+}
+#box3 {
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+    background-color: green;
+    display:inline-block
+}
+#box4 {
+   display:none /* Deleting the box*/
+}
+
+#box5 {
+    width:100px;
+    height:100px;
+    margin:25px;
+    padding:25px;
+    background-color: darkgoldenrod;
+    display:inline-block
+}
+h1 {
+    color:rgba(255,0,0,0)
+}
+h2{
+    color:rgb(255,0,0,1)
+}
+h3{
+    color:rgb(255,0,0,0.75)
+}

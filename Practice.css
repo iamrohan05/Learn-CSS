@@ -1,0 +1,21 @@
+* {
+color:white;
+margin:0;
+padding:0
+}
+div {
+    background-color: black;
+    height:60px;
+    border-style:solid;
+    border-color:white;
+}
+#logo {
+    color:#f08804;
+    font-size:25px;
+}
+button {
+    background-color:#f08804;
+}
+a{
+    margin-right: 200px
+}

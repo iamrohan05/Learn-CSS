@@ -1,0 +1,14 @@
+#box1{
+    height:100px;
+    width:100px;
+    background-color:blueviolet;
+    font-size:10px
+}
+#box2 {
+    height:50px;
+    width:33%;
+    background-color:blue;
+    font-size:2em;
+    width:3em;
+    width:5rem /* By default body is 16 px so 5 rem is 80 px */
+}

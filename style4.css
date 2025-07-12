@@ -30,17 +30,24 @@ div {
 #box2 {
     position:relative; /* Top, left, bottom, right will work */
     top:10px;
-    left:2px
+    left:2px;
+    z-index:1;
 }
 
 #box3 {
     position:absolute;
     left:10px;
-    bottom :20px
+    bottom :20px;
+    z-index:3;
 }
 
 #box4 {
     position:fixed;
     right:10px;
     bottom:10px;
+}
+
+#box5 {
+    background-image: url("fox.jpg");
+    background-size: contain;
 }

@@ -1,0 +1,43 @@
+body {
+    text-align:center;
+}
+h1 {
+    color:black;
+}
+div {
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border: 2px solid wheat
+}
+#container1 {
+width:800px;
+height:200px;
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+
+}
+#box1 {
+    background-color:blueviolet
+}
+#box2{
+    background-color:darkslateblue
+}
+#box3 {
+    background-color: green
+}
+#box4 {
+    background-color:yellow
+}
+#box5 {
+    background-color:blue
+}
+
+#container2 {
+width:800px;
+height:200px;
+display:flex;
+flex-direction: column-reverse;
+justify-content:space-around;
+}

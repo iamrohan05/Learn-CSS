@@ -1,0 +1,14 @@
+div {
+    height:200px;
+    width:200px;
+    border: 5px solid black;
+    background-color: purple;
+    background-image: url("image.jpg");
+    background-size: contain;
+    position:fixed;
+    top:60px;
+    right:0px;
+}
+p {
+    color:rgb(39, 58, 7);
+}

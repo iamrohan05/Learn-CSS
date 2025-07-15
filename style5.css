@@ -5,24 +5,28 @@ h1 {
     color:black;
 }
 div {
-    height:100px;
-    width:100px;
+    height:150px;
+    width:200px;
     display:inline-block;
     border: 2px solid wheat
 }
 #container1 {
 width:800px;
-height:200px;
+height:600px;
 display:flex;
 flex-direction: row-reverse;
-justify-content: space-between;
+justify-content: space-evenly;
+flex-wrap:wrap;
+align-items: flex-start;
+align-content:flex-start
 
 }
 #box1 {
     background-color:blueviolet
 }
 #box2{
-    background-color:darkslateblue
+    background-color:darkslateblue;
+    height:300px;
 }
 #box3 {
     background-color: green
@@ -36,8 +40,10 @@ justify-content: space-between;
 
 #container2 {
 width:800px;
-height:200px;
+height:600px;
 display:flex;
 flex-direction: column-reverse;
-justify-content:space-around;
+justify-content: center;
+align-content:center;
+
 }

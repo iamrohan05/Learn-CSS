@@ -18,7 +18,7 @@ flex-direction: row-reverse;
 justify-content: space-evenly;
 flex-wrap:wrap;
 align-items: flex-start;
-align-content:flex-start
+/*align-content:flex-start*/
 
 }
 #box1 {
@@ -35,7 +35,8 @@ align-content:flex-start
     background-color:yellow
 }
 #box5 {
-    background-color:blue
+    background-color:blue;
+    align-self:flex-end;
 }
 
 #container2 {

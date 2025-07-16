@@ -1,0 +1,21 @@
+
+* {
+color:white;
+margin:0;
+padding:0;
+text-decoration:none
+}
+div {
+    background-color: rgb(224, 47, 47);
+    height:100px;
+    border-style:solid;
+    border-color:white;
+    display:flex;
+    
+}
+li {
+    list-style-type: none;
+    display: inline;
+    justify-content:center;
+    
+}

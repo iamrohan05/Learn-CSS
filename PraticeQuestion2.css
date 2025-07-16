@@ -1,21 +1,30 @@
-
-* {
-color:white;
-margin:0;
-padding:0;
-text-decoration:none
-}
-div {
-    background-color: rgb(224, 47, 47);
-    height:100px;
-    border-style:solid;
-    border-color:white;
+.NavBar {
+    background-color:blueviolet;
     display:flex;
-    
+    justify-content:space-evenly;
 }
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
 li {
     list-style-type: none;
-    display: inline;
-    justify-content:center;
-    
+    display:inline;
+   
+}
+#outer{
+    height:500px;
+    width:500px;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#inner {
+    height:150px;
+    width:150px;
+    background-color: aquamarine;
 }

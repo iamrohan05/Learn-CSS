@@ -1,0 +1,75 @@
+#container {
+    height:300px;
+    width:300px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#div1 {
+    height: 100px;
+    width:100px;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+}
+
+@media (width: 600px) { /*Exactly 600px*/
+    #div1 {
+        background-color: brown;
+    }
+}
+@media (min-width: 700px) { /*More than 700px*/
+    #div1 {
+        background-color: purple;
+    }
+}
+@media (max-width: 500px) { /*Less than 500px*/
+    #div1 {
+        background-color: yellow;
+    }
+}  
+@media (min-width: 200px) and (max-width: 300px) { /* Betn 200px and 300px*/
+    #div1 {
+        background-color: yellowgreen;
+    }
+}  
+
+#div2 {
+    height: 100px;
+    width:100px;
+    background-color: antiquewhite;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media (max-width: 300px) {
+    #div2{
+        background-color: green;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    #div2{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    #div2{
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px) {
+    #div2{
+        background-color: blue;
+    }
+}
